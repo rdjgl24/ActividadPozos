@@ -15,7 +15,7 @@
 </head>
 
 <body class="bg-dark text-light">
-    <form name="form1" action="Menu.php" method="post">
+    <form name="form1" action="menu.php" method="post">
         <h1 class="mx-auto d-block container mt-5" >Bienvenido al sistema de mediciones de manómetros de pozos petroleros</h1>
 
         <button type="submit" name="btn" class="mt-5 mx-auto d-block btn btn-lg boton">Entrar</button>

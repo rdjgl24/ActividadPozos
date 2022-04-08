@@ -15,6 +15,6 @@ include_once('db/conn.php');
         $query= mysqli_query($conn,$sql);
 
     if($query){
-        Header("Location: dashboard.php");        
+        Header("Location: menu.php");        
     }
     }

@@ -4,11 +4,9 @@ include_once('db/conn.php');
     if (!isset($_POST['localizacion']) || !isset($_POST['nombre'])){
 
 
-        echo "no";
+        echo "Error de conexion";
     }
     else{
-        echo "si";
-
         echo  $localizacion=$_POST['localizacion'];
         echo  $nombre=$_POST['nombre'];
          

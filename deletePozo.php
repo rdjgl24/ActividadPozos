@@ -10,7 +10,7 @@ $sql="DELETE FROM pozo  WHERE id='$id'";
 $query=mysqli_query($conn,$sql);
 
     if($query){
-        Header("Location: dashboard.php");
+        Header("Location: menu.php");
     }
     mysqli_close($con);
 ?>

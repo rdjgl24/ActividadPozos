@@ -43,7 +43,7 @@ foreach ($rsQUERYNAME as $value) {
 
     </div>
 
-    <a class="text-decoration-none text-white" href="Menu.php">
+    <a class="text-decoration-none text-white" href="menu.php">
         <button class="mx-auto d-block btn btn-lg boton"> Volver al menu </button>
     </a>
 

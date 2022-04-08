@@ -16,7 +16,7 @@ include_once('db/conn.php');
 
 
     if($query){
-        Header("Location: dashboard.php");
+        Header("Location: Menu.php");
         
     }
     }

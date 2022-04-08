@@ -1,0 +1,31 @@
+body {
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+.boton{
+  background-color: darkcyan;
+  color: white;
+}
+
+.boton:hover{
+  background-color: transparent;  
+  color: white;
+  border: solid 1px darkcyan;
+}
+.boton-azul{
+  background-color: #cfe2ff;
+  color: grey;  
+}
+.boton-azul:hover{
+  background-color: transparent;
+  color: #cfe2ff;
+  border: solid 1px #cfe2ff;
+}
+.boton-verde{
+  background-color: rgba(0,205,1,0.6);
+  color: white; 
+}
+.boton-verde:hover{
+  background-color: transparent;
+  border: solid 1px rgba(0,205,1,0.6);
+}

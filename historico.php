@@ -4,11 +4,11 @@ $id = $_GET['id'];
 
 
 $QUERY = "Select * from valores where idPozo = $id ORDER BY fecha";
-$rsQUERY = mysqli_query($conn, $QUERY) or die('Error: ' . mysqli_error($con));
+$rsQUERY = mysqli_query($conn, $QUERY) or die('Error: ' . mysqli_error($conn));
 $countQUERY = mysqli_num_rows($rsQUERY);
 
 $QUERYNAME = "SELECT * FROM `pozo` WHERE id = $id";
-$rsQUERYNAME = mysqli_query($conn, $QUERYNAME) or die('Error: ' . mysqli_error($con));
+$rsQUERYNAME = mysqli_query($conn, $QUERYNAME) or die('Error: ' . mysqli_error($conn));
 
 $nombre = '';
 foreach ($rsQUERYNAME as $value) {
